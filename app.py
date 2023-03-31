@@ -1,3 +1,10 @@
-COURSENAME = 'Python'
-course_name = 'python'
-print(COURSENAME)
+course = 'python'
+
+print(len(course))
+
+print(course[0])
+print(course[-1])
+print(course[0:3])
+print(course[0:])
+print(course[:3])
+print(course[:])
