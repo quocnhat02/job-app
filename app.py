@@ -1,11 +1,7 @@
-course = "   python progrAmming"
-
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.capitalize())
-print(course.lstrip())
-print(course.find("Pro"))
-print(course.replace('p', 'j'))
-print('pro' in course)
-print('swift' not in course)
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3)
+print(10 // 3)
+print(10 % 3)
+print(2 ** 3)
