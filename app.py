@@ -1,7 +1,10 @@
-x = input('x: ')
-y = int(x) + 1
-# float(x)
-# bool(x)
-# str(x)
+c = 35
 
-print(f"x: {x}, y: {y}")
+if c > 30:
+    print("It's warm")
+    print("Drink water")
+elif c > 20:
+    print("It's nice")
+else:
+    print("It's cold")
+print("Done")
