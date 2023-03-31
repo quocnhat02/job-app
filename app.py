@@ -1,10 +1,11 @@
-age = 22
+a = False
+b = True
+student = False
 
-# if age >= 18:
-#     message = "Eligible"
-# else:
-#     message = "Not eligible"
+# or
+# and
 
-message = "Eligible" if age >= 18 else "Not eligible"
-
-print(message)
+if (a or b) and not student:
+    print("Eligible")
+else:
+    print("Not eligible")
