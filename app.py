@@ -1,7 +1,7 @@
-import math
+x = input('x: ')
+y = int(x) + 1
+# float(x)
+# bool(x)
+# str(x)
 
-print(round(2.51))
-print(abs(-2.7))
-
-print(math.ceil(2.1))
-print(math.floor(2.9))
+print(f"x: {x}, y: {y}")
