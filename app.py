@@ -1,7 +1,7 @@
-print(10 + 3)
-print(10 - 3)
-print(10 * 3)
-print(10 / 3)
-print(10 // 3)
-print(10 % 3)
-print(2 ** 3)
+import math
+
+print(round(2.51))
+print(abs(-2.7))
+
+print(math.ceil(2.1))
+print(math.floor(2.9))
