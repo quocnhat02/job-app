@@ -1,11 +1,8 @@
-def greet(name):
-    print(f"Hi {name}")
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
 
 
-def get_greeting(name):
-    return f"Hi {name}"
-
-
-message = get_greeting("Nhat")
-
-print(greet("Nhat"))
+print(multiply(2, 3, 4, 5))
