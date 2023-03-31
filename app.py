@@ -1,5 +1,10 @@
-def save_user(**user):
-    print(user["id"])
+message = 'a'
 
 
-save_user(id=1, name="Nhat", age=21)
+def greet(name):
+    global message
+    message = 'b'
+
+
+greet("Nhat")
+print(message)
