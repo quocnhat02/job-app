@@ -1,10 +1,10 @@
-c = 35
+age = 22
 
-if c > 30:
-    print("It's warm")
-    print("Drink water")
-elif c > 20:
-    print("It's nice")
-else:
-    print("It's cold")
-print("Done")
+# if age >= 18:
+#     message = "Eligible"
+# else:
+#     message = "Not eligible"
+
+message = "Eligible" if age >= 18 else "Not eligible"
+
+print(message)
