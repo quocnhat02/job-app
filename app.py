@@ -1,8 +1,5 @@
-def multiply(*numbers):
-    total = 1
-    for number in numbers:
-        total *= number
-    return total
+def save_user(**user):
+    print(user["id"])
 
 
-print(multiply(2, 3, 4, 5))
+save_user(id=1, name="Nhat", age=21)
