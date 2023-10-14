@@ -1,7 +1,6 @@
 
-def hello():
-    print("hello")
+score = 70
 
+result = "Passed" if score >= 70 else "Failed"
 
-something = hello
-something()
+print(result)
