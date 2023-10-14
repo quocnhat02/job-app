@@ -1,6 +1,12 @@
 
-score = 70
+# for x in range(10):
+#     print(x)
 
-result = "Passed" if score >= 70 else "Failed"
+# for number in range(5):
+#     print(f"The code has run for {number} time")
 
-print(result)
+# for a in range(5,15):
+#     print(a)
+
+for a in range(10, 100, 10):
+    print(a)
