@@ -1,4 +1,7 @@
 
-number = input("number: ")
+def hello():
+    print("hello")
 
-print(number)
+
+something = hello
+something()
