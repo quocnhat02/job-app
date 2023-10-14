@@ -1,3 +1,14 @@
-my_string = "Hello World"
+# Integer
+age = 21
+print(age)
+print(type(age))
 
-my_name = "Nhat"
+# Float
+grade = 8.5
+print(grade)
+print(type(grade))
+
+# Boolean
+online = True
+offline = False
+print(online, offline)
