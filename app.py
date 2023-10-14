@@ -14,6 +14,6 @@ print(mixed_tuple)
 print(type(mixed_tuple))
 
 # Set
-mixed_set = {1, 2, 3, 4, 5, 3.3, "Hello", "Abc"}
+mixed_set = {1, 2, 3.3, 5.3, "Python", "Abc", 101}
 print(mixed_set)
 print(type(mixed_set))
