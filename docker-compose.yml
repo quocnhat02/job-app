@@ -17,3 +17,29 @@ services:
       - 27017:27017
     volumes:
       - ./docker_volumes/data/:/data/db
+  mysql:
+    container_name: mysql_container
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: jobber_auth
+      MYSQL_USER: jobber
+      MYSQL_PASSWORD: api
+      MYSQL_ROOT_PASSWORD: api
+    ports:
+      - 3306:3306
+    volumes:
+      - ./docker_volumes/mysql/:/var/lib/mysql
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: jobber_reviews
+      POSTGRES_USER: jobber
+      POSTGRES_PASSWORD: api
+    ports:
+      - 5432:5432
+    volumes:
+      - ./docker_volumes/postgres/:/var/lib/postgresql
